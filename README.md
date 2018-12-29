@@ -21,6 +21,7 @@
  
          请求方式： post
          返回参数：
+         
          {
               "access_token":"ACCESS_TOKEN",    // access_token
               "expire":604800000,               // 过期时间（秒）
@@ -33,6 +34,7 @@
     请求方式： get
     请求地址： https://****/api/v1/user/tp/info?access_token=ACCESS_TOKEN
     返回参数：
+    
     {
         "data": {
             "userId": "1068060421518286850"
@@ -47,6 +49,7 @@
     请求方式： get
     请求地址： https://****/api/v1/user/tp/bank/list?access_token=ACCESS_TOKEN
     返回参数：
+    
     {
         "data": [
             {
@@ -64,6 +67,7 @@
     请求方式： get
     请求地址： https://****/api/v1/user/tp/refreshToken?access_token=ACCESS_TOKEN
     返回参数：
+    
     {
         "data": {
             "access_token": "ACCESS_TOKEN",    // access_token
