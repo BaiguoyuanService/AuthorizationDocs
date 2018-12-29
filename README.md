@@ -1,5 +1,5 @@
-# AuthorizationDocs
-授权登录方案
+# 授权登录方案
+
 
  #### 1. BPTX为每个二级应用提供appid,secret;
 
