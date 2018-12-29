@@ -1,19 +1,24 @@
 # AuthorizationDocs
 授权登录方案
 
-1. BPTX为每个二级应用提供appid,secret;
+ 1. BPTX为每个二级应用提供appid,secret;
 
-2. 二级应用自己准备一个回调的地址,进行access_token的信息接收；
+ 2. 二级应用自己准备一个回调的地址,进行access_token的信息接收；
 
-3. 二级应用使用BPTX登录；
+ # 3. 二级应用使用BPTX登录；
+ 
    a. 通过webview打开一个BPTX的授权登录页面；
-   https://****/login?appid=1&secret=2&redirect_uri=3
+   
+   > https://****/login?appid=1&secret=2&redirect_uri=3
+   
+   ``` javascript
    {
       appid         // appid
       secret        // secret
       redirect_uri  // 回调地址
    }
-
+   ```
+   
    b. 用户通过网页进行登录，登录成功后回调二级应用回调地址
    请求方式： post
    返回参数：
