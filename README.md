@@ -27,7 +27,8 @@
          }
 
 #### 4. 二级应用可通过access_token进行以下操作：
-    >a. 获取用户资料
+
+ >a. 获取用户资料
     
     请求方式： get
     请求地址： https://****/api/v1/user/tp/info?access_token=ACCESS_TOKEN
@@ -41,7 +42,7 @@
     }
 
 
-    >b. 获取银行卡信息
+>b. 获取银行卡信息
     
     请求方式： get
     请求地址： https://****/api/v1/user/tp/bank/list?access_token=ACCESS_TOKEN
